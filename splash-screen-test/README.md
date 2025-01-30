@@ -1,0 +1,2 @@
+Created using `npx create-expo-app@latest` and using the `reset-project` script. Then added `SplashScreen.preventAutoHideAsync();` to the `_layout.tsx` file.
+Expected behavior is the splash screen being delayed indefinitely, but the behavior exhibited on an Android emulator (tested with Expo Go, Expo Development Builds, and preview build) is that the splash screen disappears as soon as the app is started.
